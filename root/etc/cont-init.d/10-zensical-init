@@ -1,0 +1,8 @@
+#!/bin/sh
+# Seed /config with a default project on first run.
+
+if [ ! -f /config/zensical.toml ]; then
+    echo "[zensical] no project found in /config, seeding default..."
+    cp -r /app/default/. /config/
+    chown -R 1000:1000 /config
+fi

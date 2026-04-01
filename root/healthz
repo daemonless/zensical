@@ -1,0 +1,2 @@
+#!/bin/sh
+fetch -qo /dev/null http://127.0.0.1:8000/ && exit 0 || exit 1

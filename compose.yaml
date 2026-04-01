@@ -1,0 +1,42 @@
+name: zensical
+
+x-daemonless:
+  title: "Zensical"
+  icon: ":material-apps:"  # https://pictogrammers.com/library/mdi/ (material-) or https://simpleicons.org/ (simple-)
+  category: "Development"
+  description: "Zensical is a modern static site generator designed to simplify building and maintaining project documentation.  It's built by the creators of Material for MkDocs and shares the same core design principles and philosophy - batteries included, easy to use, with powerful customization options."
+  upstream_url: "https://zensical.org"
+  web_url: "https://zensical.org"
+  freshports_url: "https://www.freshports.org/textproc/py-zensical/"
+  user: "bsd"
+  mlock: false
+  appjail: true
+
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+    volumes:
+      /config: "Configuration directory"
+    ports:
+      8000: "Web UI"
+
+services:
+  zensical:
+    image: ghcr.io/daemonless/zensical:latest
+    container_name: zensical
+    restart: unless-stopped
+    
+    
+
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/zensical:/config
+
+    ports:
+      - 8000:8000
