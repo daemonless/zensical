@@ -1,12 +1,12 @@
 {
   "image": "zensical",
-  "generated": "2026-04-01T22:41:35Z",
+  "generated": "2026-04-02T08:53:54Z",
   "tags": {
     "pkg-latest": {
       "arch": "amd64",
       "app_version": "0.0.30",
       "source": "pkg",
-      "generated": "2026-04-01T22:40:23Z",
+      "generated": "2026-04-02T08:52:44Z",
       "packages": {
         "freebsd": [
           {
@@ -273,7 +273,7 @@
       "arch": "amd64",
       "app_version": "0.0.15",
       "source": "pkg",
-      "generated": "2026-04-01T22:39:59Z",
+      "generated": "2026-04-02T08:52:23Z",
       "packages": {
         "freebsd": [
           {
