@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-05T19:41:01Z",
+  "generated": "2026-04-07T15:07:55Z",
   "image": "zensical",
   "tags": {
     "pkg": {
-      "app_version": "0.0.15",
+      "app_version": "0.0.31",
       "arch": "amd64",
-      "generated": "2026-04-05T19:39:50Z",
+      "generated": "2026-04-07T15:05:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -135,7 +135,7 @@
           },
           {
             "name": "gettext-runtime",
-            "version": "0.26"
+            "version": "1.0"
           },
           {
             "name": "indexinfo",
@@ -163,7 +163,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.5.1"
+            "version": "2.6.2_1"
           },
           {
             "name": "py311-click",
@@ -175,15 +175,15 @@
           },
           {
             "name": "py311-markdown",
-            "version": "3.10"
+            "version": "3.10.2"
           },
           {
             "name": "py311-pygments",
-            "version": "2.19.2"
+            "version": "2.20.0"
           },
           {
             "name": "py311-pymdown-extensions",
-            "version": "10.20"
+            "version": "10.21.2"
           },
           {
             "name": "py311-pyyaml",
@@ -191,11 +191,11 @@
           },
           {
             "name": "py311-zensical",
-            "version": "0.0.15"
+            "version": "0.0.31"
           },
           {
             "name": "python311",
-            "version": "3.11.15"
+            "version": "3.11.15_1"
           },
           {
             "name": "readline",
@@ -233,19 +233,19 @@
           },
           {
             "name": "markdown",
-            "version": "3.10"
+            "version": "3.10.2"
           },
           {
             "name": "pygments",
-            "version": "2.19.2"
+            "version": "2.20.0"
           },
           {
             "name": "pymdown-extensions",
-            "version": "10.20"
+            "version": "10.21.2"
           },
           {
             "name": "zensical",
-            "version": "0.0.15"
+            "version": "0.0.31"
           }
         ],
         "ruby": [],
@@ -268,7 +268,7 @@
     "pkg-latest": {
       "app_version": "0.0.31",
       "arch": "amd64",
-      "generated": "2026-04-05T19:39:07Z",
+      "generated": "2026-04-07T15:06:42Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
