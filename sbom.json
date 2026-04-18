@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-16T19:20:43Z",
+  "generated": "2026-04-18T23:37:37Z",
   "image": "zensical",
   "tags": {
     "pkg": {
       "app_version": "0.0.31",
       "arch": "amd64",
-      "generated": "2026-04-16T19:17:06Z",
+      "generated": "2026-04-18T23:36:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -266,9 +266,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "0.0.31",
+      "app_version": "0.0.33",
       "arch": "amd64",
-      "generated": "2026-04-16T19:19:32Z",
+      "generated": "2026-04-18T23:35:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -426,7 +426,7 @@
           },
           {
             "name": "pkg",
-            "version": "2.7.0"
+            "version": "2.7.4"
           },
           {
             "name": "py311-click",
@@ -454,7 +454,7 @@
           },
           {
             "name": "py311-zensical",
-            "version": "0.0.31"
+            "version": "0.0.33"
           },
           {
             "name": "python311",
@@ -508,7 +508,7 @@
           },
           {
             "name": "zensical",
-            "version": "0.0.31"
+            "version": "0.0.33"
           }
         ],
         "ruby": [],
