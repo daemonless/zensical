@@ -1,11 +1,11 @@
 {
-  "generated": "2026-04-18T23:37:37Z",
+  "generated": "2026-04-26T13:56:23Z",
   "image": "zensical",
   "tags": {
     "pkg": {
       "app_version": "0.0.31",
       "arch": "amd64",
-      "generated": "2026-04-18T23:36:25Z",
+      "generated": "2026-04-26T13:55:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -79,11 +79,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -95,7 +95,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -266,9 +266,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "0.0.33",
+      "app_version": "0.0.34",
       "arch": "amd64",
-      "generated": "2026-04-18T23:35:07Z",
+      "generated": "2026-04-26T13:55:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -342,11 +342,11 @@
           },
           {
             "name": "FreeBSD-openssl",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-openssl-lib",
-            "version": "15.0"
+            "version": "15.0p2"
           },
           {
             "name": "FreeBSD-pkg-bootstrap",
@@ -358,7 +358,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0"
+            "version": "15.0p6"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -453,8 +453,12 @@
             "version": "6.0.3"
           },
           {
+            "name": "py311-tomli",
+            "version": "2.4.1"
+          },
+          {
             "name": "py311-zensical",
-            "version": "0.0.33"
+            "version": "0.0.34"
           },
           {
             "name": "python311",
@@ -507,8 +511,12 @@
             "version": "10.21.2"
           },
           {
+            "name": "tomli",
+            "version": "2.4.1"
+          },
+          {
             "name": "zensical",
-            "version": "0.0.33"
+            "version": "0.0.34"
           }
         ],
         "ruby": [],
@@ -517,15 +525,15 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 50,
+        "freebsd": 51,
         "go": 0,
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 8,
+        "python": 9,
         "ruby": 0,
         "rust": 0,
-        "total": 58
+        "total": 60
       }
     }
   }
