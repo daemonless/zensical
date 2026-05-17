@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-15T22:49:05Z",
+  "generated": "2026-05-17T07:20:03Z",
   "image": "zensical",
   "tags": {
     "pkg": {
       "app_version": "0.0.31",
       "arch": "amd64",
-      "generated": "2026-05-15T22:47:49Z",
+      "generated": "2026-05-17T07:16:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -127,7 +127,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.123.1"
           },
           {
             "name": "execline",
@@ -266,9 +266,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "0.0.40",
+      "app_version": "0.0.41",
       "arch": "amd64",
-      "generated": "2026-05-15T22:47:38Z",
+      "generated": "2026-05-17T07:18:49Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -390,7 +390,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.123.1"
           },
           {
             "name": "execline",
@@ -458,7 +458,7 @@
           },
           {
             "name": "py311-pymdown-extensions",
-            "version": "10.21.2"
+            "version": "10.21.3"
           },
           {
             "name": "py311-pyyaml",
@@ -470,7 +470,7 @@
           },
           {
             "name": "py311-zensical",
-            "version": "0.0.40"
+            "version": "0.0.41"
           },
           {
             "name": "python311",
@@ -532,7 +532,7 @@
           },
           {
             "name": "pymdown-extensions",
-            "version": "10.21.2"
+            "version": "10.21.3"
           },
           {
             "name": "tomli",
@@ -540,7 +540,7 @@
           },
           {
             "name": "zensical",
-            "version": "0.0.40"
+            "version": "0.0.41"
           }
         ],
         "ruby": [],
