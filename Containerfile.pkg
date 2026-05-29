@@ -39,7 +39,7 @@ COPY root/ /
 
 # Set permissions
 RUN chmod +x /etc/services.d/zensical/run /healthz \
-             /etc/cont-init.d/10-zensical-init
+             /etc/cont-init.d/20-zensical-init
 
 # Expose
 EXPOSE 8000

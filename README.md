@@ -21,7 +21,7 @@ Zensical is a modern static site generator designed to simplify building and mai
 
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
+| `latest` / `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
 | `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 
 ## Prerequisites
@@ -49,7 +49,6 @@ services:
 ```
 
 ### AppJail Director
-
 
 **.env**:
 
@@ -123,8 +122,6 @@ podman run -d --name zensical \
     volumes:
       - "/path/to/containers/zensical:/config"
 ```
-
-Access at: `http://localhost:8000`
 
 ## Parameters
 
