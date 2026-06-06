@@ -4,6 +4,9 @@
 # Full reference: https://github.com/daemonless/dbuild
 
 build:
+  architectures:
+    - amd64
+    - aarch64
   variants:
     - tag: pkg
       containerfile: Containerfile.pkg
