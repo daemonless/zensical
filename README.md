@@ -21,7 +21,8 @@ Zensical is a modern static site generator designed to simplify building and mai
 
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` / `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
+| `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
+| `pkg` | **FreeBSD Quarterly**. Uses stable, tested packages. | Production stability. |
 | `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 
 ## Prerequisites
@@ -35,16 +36,16 @@ Before deploying, ensure your host environment is ready. See the [Quick Start Gu
 ```yaml
 services:
   zensical:
-    image: ghcr.io/daemonless/zensical:latest
+    image: "ghcr.io/daemonless/zensical:latest"
     container_name: zensical
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=UTC
+      - PUID=1000  # User ID for the application process
+      - PGID=1000  # Group ID for the application process
+      - TZ=UTC  # Timezone for the container
     volumes:
       - "/path/to/containers/zensical:/config"
     ports:
-      - 8000:8000
+      - "8000:8000"
     restart: unless-stopped
 ```
 
@@ -86,7 +87,7 @@ volumes:
 **Makejail**:
 
 ```
-ARG tag=pkg
+ARG tag=latest
 
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/zensical:${tag}
@@ -110,7 +111,7 @@ podman run -d --name zensical \
 - name: Deploy zensical
   containers.podman.podman_container:
     name: zensical
-    image: ghcr.io/daemonless/zensical:latest
+    image: "ghcr.io/daemonless/zensical:latest"
     state: started
     restart_policy: always
     env:
@@ -122,6 +123,8 @@ podman run -d --name zensical \
     volumes:
       - "/path/to/containers/zensical:/config"
 ```
+
+Access at: `http://localhost:8000`
 
 ## Parameters
 
@@ -145,7 +148,7 @@ podman run -d --name zensical \
 |------|----------|-------------|
 | `8000` | TCP | Web UI |
 
-**Architectures:** amd64
+**Architectures:** amd64, aarch64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
 **Base:** FreeBSD 15.0
 

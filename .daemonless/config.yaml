@@ -8,9 +8,11 @@ build:
     - amd64
     - aarch64
   variants:
+    - tag: latest
+      containerfile: Containerfile
+      default: true
     - tag: pkg
       containerfile: Containerfile.pkg
-      aliases: ["latest"]
     - tag: pkg-latest
       containerfile: Containerfile.pkg
       args:

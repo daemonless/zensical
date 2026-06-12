@@ -1,0 +1,74 @@
+ARG BASE_VERSION=15
+FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder
+
+# zensical has a Rust core (maturin/PyO3) and PyPI ships no FreeBSD
+# wheels, so build the wheel from the sdist with the ports toolchain.
+RUN pkg update && \
+    pkg install -y \
+    FreeBSD-clibs-dev FreeBSD-runtime-dev FreeBSD-libexecinfo-dev \
+    FreeBSD-clang FreeBSD-clang-dev FreeBSD-toolchain \
+    FreeBSD-utilities-dev FreeBSD-zlib-dev FreeBSD-audit-dev \
+    python311 py311-maturin rust ca_root_nss && \
+    pkg clean -ay
+
+ENV CARGO_BUILD_JOBS=2
+
+RUN python3.11 -m ensurepip --upgrade && \
+    VERSION=$(fetch -qo - https://pypi.org/pypi/zensical/json | \
+        python3.11 -c 'import json,sys; print(json.load(sys.stdin)["info"]["version"])') && \
+    echo "Building zensical ${VERSION}" && \
+    echo "${VERSION}" > /tmp/zensical-version && \
+    python3.11 -m pip wheel --no-build-isolation --no-deps \
+        -w /wheels "zensical==${VERSION}" && \
+    rm -rf /root/.cargo /root/.cache
+
+# ── Final image ──────────────────────────────────────────────────────
+FROM ghcr.io/daemonless/base:${BASE_VERSION}
+
+ARG FREEBSD_ARCH=amd64
+ARG PACKAGES="python311 ca_root_nss"
+
+LABEL org.opencontainers.image.title="Zensical" \
+      org.opencontainers.image.description="Zensical is a modern static site generator designed to simplify building and maintaining project documentation.  It's built by the creators of Material for MkDocs and shares the same core design principles and philosophy - batteries included, easy to use, with powerful customization options." \
+      org.opencontainers.image.source="https://github.com/daemonless/zensical" \
+      org.opencontainers.image.url="https://zensical.org" \
+      org.opencontainers.image.licenses="MIT" \
+      org.opencontainers.image.vendor="daemonless" \
+      org.opencontainers.image.authors="daemonless" \
+      io.daemonless.category="Development" \
+      io.daemonless.port="8000" \
+      io.daemonless.arch="${FREEBSD_ARCH}" \
+      io.daemonless.pkg-source="upstream" \
+      io.daemonless.packages="${PACKAGES}" \
+      io.daemonless.upstream-url="https://pypi.org/pypi/zensical/json" \
+      io.daemonless.upstream-jq=".info.version"
+
+COPY --from=builder /wheels /wheels
+COPY --from=builder /tmp/zensical-version /tmp/zensical-version
+
+# Install the locally-built wheel (pure-Python deps come from PyPI)
+# and scaffold a default project for first-run
+RUN pkg update && \
+    pkg install -y ${PACKAGES} && \
+    python3.11 -m venv /app/venv && \
+    /app/venv/bin/pip install --no-cache-dir /wheels/zensical-*.whl && \
+    ln -s /app/venv/bin/zensical /usr/local/bin/zensical && \
+    mv /tmp/zensical-version /app/version && \
+    zensical new /app/default && \
+    chmod -R a+rX /app && \
+    rm -rf /wheels /root/.cache && \
+    pkg clean -ay && \
+    rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
+
+# Copy root filesystem
+COPY root/ /
+
+# Set permissions
+RUN chmod +x /etc/services.d/zensical/run /healthz \
+             /etc/cont-init.d/20-zensical-init
+
+# Expose
+EXPOSE 8000
+
+# Volumes
+VOLUME /config
