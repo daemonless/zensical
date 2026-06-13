@@ -4,7 +4,7 @@
 # Source: Containerfile.j2
 # --------------------------------------------------------------------------
 
-ARG BASE_VERSION=15
+ARG BASE_VERSION=15.1
 FROM ghcr.io/daemonless/base:${BASE_VERSION} AS builder
 
 # zensical has a Rust core (maturin/PyO3) and PyPI ships no FreeBSD

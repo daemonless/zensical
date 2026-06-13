@@ -6,7 +6,6 @@
 build:
   architectures:
     - amd64
-    - aarch64
   variants:
     - tag: latest
       containerfile: Containerfile
@@ -16,7 +15,7 @@ build:
     - tag: pkg-latest
       containerfile: Containerfile.pkg
       args:
-        BASE_VERSION: "15-latest"
+        BASE_VERSION: "15.1-latest"
 
 cit:
   mode: screenshot
