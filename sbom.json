@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-13T07:48:12Z",
+  "generated": "2026-06-17T21:18:48Z",
   "image": "zensical",
   "tags": {
     "latest": {
       "app_version": "0.0.45",
       "arch": "amd64",
-      "generated": "2026-06-13T07:46:51Z",
+      "generated": "2026-06-17T21:11:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -15,7 +15,7 @@
           },
           {
             "name": "FreeBSD-blocklist",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-bzip2-lib",
@@ -31,7 +31,7 @@
           },
           {
             "name": "FreeBSD-ctf-lib",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-fetch",
@@ -47,7 +47,7 @@
           },
           {
             "name": "FreeBSD-libbsdstat",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libcasper",
@@ -59,11 +59,11 @@
           },
           {
             "name": "FreeBSD-libldns",
-            "version": "15.1.rc3.20260608235855"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libmagic",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libucl",
@@ -103,15 +103,15 @@
           },
           {
             "name": "FreeBSD-tcpd",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ufs-lib",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.1.rc3.20260608235855"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -119,7 +119,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zlib",
@@ -140,6 +140,10 @@
           {
             "name": "execline",
             "version": "2.9.8.1"
+          },
+          {
+            "name": "expat",
+            "version": "2.8.1"
           },
           {
             "name": "gettext-runtime",
@@ -171,7 +175,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_3"
           },
           {
             "name": "readline",
@@ -314,7 +318,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 44,
+        "freebsd": 45,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -322,13 +326,13 @@
         "python": 29,
         "ruby": 0,
         "rust": 0,
-        "total": 73
+        "total": 74
       }
     },
     "pkg": {
       "app_version": "0.0.31",
       "arch": "amd64",
-      "generated": "2026-06-13T07:42:44Z",
+      "generated": "2026-06-17T21:17:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -457,6 +461,10 @@
             "version": "2.9.8.1"
           },
           {
+            "name": "expat",
+            "version": "2.8.1"
+          },
+          {
             "name": "gettext-runtime",
             "version": "1.0"
           },
@@ -518,7 +526,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_3"
           },
           {
             "name": "readline",
@@ -577,7 +585,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 50,
+        "freebsd": 51,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -585,13 +593,13 @@
         "python": 8,
         "ruby": 0,
         "rust": 0,
-        "total": 58
+        "total": 59
       }
     },
     "pkg-latest": {
-      "app_version": "0.0.43_1",
+      "app_version": "0.0.45",
       "arch": "amd64",
-      "generated": "2026-06-13T07:42:53Z",
+      "generated": "2026-06-17T21:08:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -601,7 +609,7 @@
           },
           {
             "name": "FreeBSD-blocklist",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-bzip2-lib",
@@ -617,7 +625,7 @@
           },
           {
             "name": "FreeBSD-ctf-lib",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-fetch",
@@ -633,7 +641,7 @@
           },
           {
             "name": "FreeBSD-libbsdstat",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libcasper",
@@ -645,11 +653,11 @@
           },
           {
             "name": "FreeBSD-libldns",
-            "version": "15.1.rc3.20260608235855"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libmagic",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-libucl",
@@ -689,15 +697,15 @@
           },
           {
             "name": "FreeBSD-tcpd",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-ufs-lib",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.1.rc3.20260608235855"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -705,7 +713,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1.rc3.20260606060724"
+            "version": "15.1"
           },
           {
             "name": "FreeBSD-zlib",
@@ -726,6 +734,10 @@
           {
             "name": "execline",
             "version": "2.9.8.1"
+          },
+          {
+            "name": "expat",
+            "version": "2.8.1"
           },
           {
             "name": "gettext-runtime",
@@ -801,11 +813,11 @@
           },
           {
             "name": "py311-zensical",
-            "version": "0.0.43_1"
+            "version": "0.0.45"
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_3"
           },
           {
             "name": "readline",
@@ -871,7 +883,7 @@
           },
           {
             "name": "zensical",
-            "version": "0.0.43"
+            "version": "0.0.45"
           }
         ],
         "ruby": [],
@@ -880,7 +892,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 56,
+        "freebsd": 57,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -888,7 +900,7 @@
         "python": 12,
         "ruby": 0,
         "rust": 0,
-        "total": 68
+        "total": 69
       }
     }
   }
