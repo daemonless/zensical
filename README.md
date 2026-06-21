@@ -71,6 +71,7 @@ services:
     name: zensical
     options:
       - container: 'boot args:--pull'
+      - expose="8000:8000 proto:tcp" \
     oci:
       user: root
       environment:
@@ -92,6 +93,7 @@ ARG tag=latest
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/zensical:${tag}
 ```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
 
@@ -104,6 +106,23 @@ podman run -d --name zensical \
   -v /path/to/containers/zensical:/config \
   ghcr.io/daemonless/zensical:latest
 ```
+
+### AppJail
+
+```bash
+appjail oci run -Pd \
+  -o overwrite=force \
+  -o container="args:--pull" \
+  -o virtualnet=":<random> default" \
+  -o nat \
+  -o expose="8000:8000 proto:tcp" \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=UTC \
+  -o fstab="/path/to/containers/zensical /config <pseudofs>" \
+  ghcr.io/daemonless/zensical:latest zensical
+```
+**Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Ansible
 
@@ -148,7 +167,7 @@ Access at: `http://localhost:8000`
 |------|----------|-------------|
 | `8000` | TCP | Web UI |
 
-**Architectures:** amd64, aarch64
+**Architectures:** amd64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
 **Base:** FreeBSD 15.0
 
