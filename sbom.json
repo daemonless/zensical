@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-21T21:07:22Z",
+  "generated": "2026-07-05T11:56:37Z",
   "image": "zensical",
   "tags": {
     "latest": {
       "app_version": "0.0.46",
       "arch": "amd64",
-      "generated": "2026-06-21T21:06:06Z",
+      "generated": "2026-07-05T11:55:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -27,7 +27,7 @@
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-ctf-lib",
@@ -99,7 +99,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -111,7 +111,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -119,7 +119,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-zlib",
@@ -175,7 +175,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_3"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
@@ -225,11 +225,11 @@
           },
           {
             "name": "click",
-            "version": "8.4.1"
+            "version": "8.4.2"
           },
           {
             "name": "deepmerge",
-            "version": "2.0"
+            "version": "2.1.0"
           },
           {
             "name": "example",
@@ -281,7 +281,7 @@
           },
           {
             "name": "pymdown-extensions",
-            "version": "10.21.3"
+            "version": "11.0.1"
           },
           {
             "name": "setuptools",
@@ -332,7 +332,7 @@
     "pkg": {
       "app_version": "0.0.31",
       "arch": "amd64",
-      "generated": "2026-06-21T21:02:40Z",
+      "generated": "2026-07-05T11:51:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -354,7 +354,7 @@
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-ctf-lib",
@@ -426,7 +426,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -438,7 +438,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -446,7 +446,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-zlib",
@@ -534,7 +534,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_3"
+            "version": "3.11.15_4"
           },
           {
             "name": "readline",
@@ -605,9 +605,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "0.0.45",
+      "app_version": "0.0.46",
       "arch": "amd64",
-      "generated": "2026-06-21T21:02:44Z",
+      "generated": "2026-07-05T11:51:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -629,7 +629,7 @@
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-ctf-lib",
@@ -701,7 +701,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -713,7 +713,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -721,7 +721,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.1"
+            "version": "15.1p1"
           },
           {
             "name": "FreeBSD-zlib",
@@ -745,7 +745,7 @@
           },
           {
             "name": "expat",
-            "version": "2.8.1"
+            "version": "2.8.2"
           },
           {
             "name": "gettext-runtime",
@@ -757,11 +757,11 @@
           },
           {
             "name": "jq",
-            "version": "1.8.1"
+            "version": "1.8.2"
           },
           {
             "name": "libffi",
-            "version": "3.5.2"
+            "version": "3.6.0"
           },
           {
             "name": "libyaml",
@@ -780,52 +780,52 @@
             "version": "2.7.5"
           },
           {
-            "name": "py311-Babel",
+            "name": "py312-Babel",
             "version": "2.18.0"
           },
           {
-            "name": "py311-Jinja2",
+            "name": "py312-Jinja2",
             "version": "3.1.6"
           },
           {
-            "name": "py311-click",
+            "name": "py312-click",
             "version": "8.3.1"
           },
           {
-            "name": "py311-deepmerge",
+            "name": "py312-deepmerge",
             "version": "1.1.1"
           },
           {
-            "name": "py311-markdown",
+            "name": "py312-markdown",
             "version": "3.10.2"
           },
           {
-            "name": "py311-markupsafe",
+            "name": "py312-markupsafe",
             "version": "3.0.3"
           },
           {
-            "name": "py311-pygments",
+            "name": "py312-pygments",
             "version": "2.20.0"
           },
           {
-            "name": "py311-pymdown-extensions",
-            "version": "10.21.3"
+            "name": "py312-pymdown-extensions",
+            "version": "11.0"
           },
           {
-            "name": "py311-pyyaml",
+            "name": "py312-pyyaml",
             "version": "6.0.3"
           },
           {
-            "name": "py311-tomli",
+            "name": "py312-tomli",
             "version": "2.4.1"
           },
           {
-            "name": "py311-zensical",
-            "version": "0.0.45"
+            "name": "py312-zensical",
+            "version": "0.0.46"
           },
           {
-            "name": "python311",
-            "version": "3.11.15_3"
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
@@ -883,7 +883,7 @@
           },
           {
             "name": "pymdown-extensions",
-            "version": "10.21.3"
+            "version": "11.0"
           },
           {
             "name": "tomli",
@@ -891,7 +891,7 @@
           },
           {
             "name": "zensical",
-            "version": "0.0.45"
+            "version": "0.0.46"
           }
         ],
         "ruby": [],
