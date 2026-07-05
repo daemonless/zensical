@@ -18,7 +18,6 @@ Zensical is a modern static site generator designed to simplify building and mai
 | **Website** | [https://zensical.org](https://zensical.org) |
 
 ## Version Tags
-
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
@@ -26,7 +25,6 @@ Zensical is a modern static site generator designed to simplify building and mai
 | `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Newest FreeBSD packages. |
 
 ## Prerequisites
-
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
 
 ## Deployment
@@ -50,10 +48,11 @@ services:
 ```
 
 ### AppJail Director
-
 **.env**:
 
 ```
+# .env
+
 DIRECTOR_PROJECT=zensical
 PUID=1000
 PGID=1000
@@ -63,6 +62,8 @@ TZ=UTC
 **appjail-director.yml**:
 
 ```yaml
+# appjail-director.yml
+
 options:
   - virtualnet: ':<random> default'
   - nat:
@@ -71,7 +72,7 @@ services:
     name: zensical
     options:
       - container: 'boot args:--pull'
-      - expose="8000:8000 proto:tcp" \
+      - expose: '8000:8000 proto:tcp' \
     oci:
       user: root
       environment:
@@ -88,6 +89,8 @@ volumes:
 **Makejail**:
 
 ```
+# Makejail
+
 ARG tag=latest
 
 OPTION overwrite=force

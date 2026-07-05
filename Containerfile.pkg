@@ -27,9 +27,9 @@ LABEL org.opencontainers.image.title="Zensical" \
 
 # Install zensical and scaffold a default project for first-run
 RUN pkg update && \
-    pkg install -y ${PACKAGES} && \
+    pkg install -y textproc/py-zensical && \
     mkdir -p /app && \
-    pkg query '%v' ${PKG_NAME} > /app/version && \
+    pkg query '%v' textproc/py-zensical > /app/version && \
     zensical new /app/default && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
