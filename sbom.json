@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-05T20:18:21Z",
+  "generated": "2026-07-09T16:55:54Z",
   "image": "zensical",
   "tags": {
     "latest": {
-      "app_version": "0.0.47",
+      "app_version": "0.0.50",
       "arch": "amd64",
-      "generated": "2026-07-05T20:17:01Z",
+      "generated": "2026-07-09T16:54:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -305,7 +305,7 @@
           },
           {
             "name": "zensical",
-            "version": "0.0.47"
+            "version": "0.0.50"
           },
           {
             "name": "zipp",
@@ -332,7 +332,7 @@
     "pkg": {
       "app_version": "0.0.31",
       "arch": "amd64",
-      "generated": "2026-07-05T20:11:15Z",
+      "generated": "2026-07-09T16:48:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -607,7 +607,7 @@
     "pkg-latest": {
       "app_version": "0.0.46",
       "arch": "amd64",
-      "generated": "2026-07-05T20:10:52Z",
+      "generated": "2026-07-09T16:49:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
