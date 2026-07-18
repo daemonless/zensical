@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-09T16:55:54Z",
+  "generated": "2026-07-18T11:47:38Z",
   "image": "zensical",
   "tags": {
     "latest": {
-      "app_version": "0.0.50",
+      "app_version": "0.0.51",
       "arch": "amd64",
-      "generated": "2026-07-09T16:54:35Z",
+      "generated": "2026-07-18T11:46:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -135,7 +135,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "execline",
@@ -143,11 +143,11 @@
           },
           {
             "name": "expat",
-            "version": "2.8.1"
+            "version": "2.8.2"
           },
           {
             "name": "gettext-runtime",
-            "version": "1.0"
+            "version": "1.0_1"
           },
           {
             "name": "indexinfo",
@@ -155,11 +155,11 @@
           },
           {
             "name": "jq",
-            "version": "1.8.1"
+            "version": "1.8.2"
           },
           {
             "name": "libffi",
-            "version": "3.5.1"
+            "version": "3.6.0"
           },
           {
             "name": "mpdecimal",
@@ -171,11 +171,15 @@
           },
           {
             "name": "pkg",
-            "version": "2.6.2_1"
+            "version": "2.7.5"
           },
           {
-            "name": "python311",
-            "version": "3.11.15_4"
+            "name": "python3",
+            "version": "3_4"
+          },
+          {
+            "name": "python312",
+            "version": "3.12.13_3"
           },
           {
             "name": "readline",
@@ -216,14 +220,6 @@
             "version": "2.20.0"
           },
           {
-            "name": "autocommand",
-            "version": "2.2.2"
-          },
-          {
-            "name": "backports.tarfile",
-            "version": "1.2.0"
-          },
-          {
             "name": "click",
             "version": "8.4.2"
           },
@@ -236,80 +232,20 @@
             "version": "21.12"
           },
           {
-            "name": "importlib_metadata",
-            "version": "8.0.0"
-          },
-          {
-            "name": "inflect",
-            "version": "7.3.1"
-          },
-          {
-            "name": "jaraco.collections",
-            "version": "5.1.0"
-          },
-          {
-            "name": "jaraco.context",
-            "version": "5.3.0"
-          },
-          {
-            "name": "jaraco.functools",
-            "version": "4.0.1"
-          },
-          {
-            "name": "jaraco.text",
-            "version": "3.12.1"
-          },
-          {
-            "name": "more-itertools",
-            "version": "10.3.0"
-          },
-          {
-            "name": "my-test-package",
-            "version": "1.0"
-          },
-          {
-            "name": "packaging",
-            "version": "24.2"
-          },
-          {
             "name": "pip",
-            "version": "24.0"
-          },
-          {
-            "name": "platformdirs",
-            "version": "4.2.2"
+            "version": "25.0.1"
           },
           {
             "name": "pymdown-extensions",
             "version": "11.0.1"
           },
           {
-            "name": "setuptools",
-            "version": "79.0.1"
-          },
-          {
             "name": "tomli",
-            "version": "2.0.1"
-          },
-          {
-            "name": "typeguard",
-            "version": "4.3.0"
-          },
-          {
-            "name": "typing_extensions",
-            "version": "4.12.2"
-          },
-          {
-            "name": "wheel",
-            "version": "0.45.1"
+            "version": "2.4.1"
           },
           {
             "name": "zensical",
-            "version": "0.0.50"
-          },
-          {
-            "name": "zipp",
-            "version": "3.19.2"
+            "version": "0.0.51"
           }
         ],
         "ruby": [],
@@ -318,21 +254,21 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 45,
+        "freebsd": 46,
         "go": 0,
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 29,
+        "python": 12,
         "ruby": 0,
         "rust": 0,
-        "total": 74
+        "total": 58
       }
     },
     "pkg": {
-      "app_version": "0.0.31",
+      "app_version": "0.0.50",
       "arch": "amd64",
-      "generated": "2026-07-09T16:48:55Z",
+      "generated": "2026-07-18T11:40:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -462,282 +398,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.124"
-          },
-          {
-            "name": "execline",
-            "version": "2.9.8.1"
-          },
-          {
-            "name": "expat",
-            "version": "2.8.1"
-          },
-          {
-            "name": "gettext-runtime",
-            "version": "1.0"
-          },
-          {
-            "name": "indexinfo",
-            "version": "0.3.1_1"
-          },
-          {
-            "name": "jq",
-            "version": "1.8.1"
-          },
-          {
-            "name": "libffi",
-            "version": "3.5.1"
-          },
-          {
-            "name": "libyaml",
-            "version": "0.2.5"
-          },
-          {
-            "name": "mpdecimal",
-            "version": "4.0.1"
-          },
-          {
-            "name": "oniguruma",
-            "version": "6.9.10"
-          },
-          {
-            "name": "pkg",
-            "version": "2.6.2_1"
-          },
-          {
-            "name": "py311-click",
-            "version": "8.1.7_1"
-          },
-          {
-            "name": "py311-deepmerge",
-            "version": "1.1.1"
-          },
-          {
-            "name": "py311-markdown",
-            "version": "3.10.2"
-          },
-          {
-            "name": "py311-pygments",
-            "version": "2.20.0"
-          },
-          {
-            "name": "py311-pymdown-extensions",
-            "version": "10.21.2"
-          },
-          {
-            "name": "py311-pyyaml",
-            "version": "6.0.3"
-          },
-          {
-            "name": "py311-zensical",
-            "version": "0.0.31"
-          },
-          {
-            "name": "python311",
-            "version": "3.11.15_4"
-          },
-          {
-            "name": "readline",
-            "version": "8.3.3"
-          },
-          {
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "name": "skalibs",
-            "version": "2.14.5.1"
-          }
-        ],
-        "go": [],
-        "java": [],
-        "node": [],
-        "php": [],
-        "python": [
-          {
-            "name": "PyYAML",
-            "version": "6.0.3"
-          },
-          {
-            "name": "click",
-            "version": "8.1.7"
-          },
-          {
-            "name": "deepmerge",
-            "version": "1.1.1"
-          },
-          {
-            "name": "example",
-            "version": "21.12"
-          },
-          {
-            "name": "markdown",
-            "version": "3.10.2"
-          },
-          {
-            "name": "pygments",
-            "version": "2.20.0"
-          },
-          {
-            "name": "pymdown-extensions",
-            "version": "10.21.2"
-          },
-          {
-            "name": "zensical",
-            "version": "0.0.31"
-          }
-        ],
-        "ruby": [],
-        "rust": []
-      },
-      "source": "pkg",
-      "summary": {
-        "dotnet": 0,
-        "freebsd": 53,
-        "go": 0,
-        "java": 0,
-        "node": 0,
-        "php": 0,
-        "python": 8,
-        "ruby": 0,
-        "rust": 0,
-        "total": 61
-      }
-    },
-    "pkg-latest": {
-      "app_version": "0.0.46",
-      "arch": "amd64",
-      "generated": "2026-07-09T16:49:32Z",
-      "packages": {
-        "dotnet": [],
-        "freebsd": [
-          {
-            "name": "FreeBSD-audit-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-blocklist",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-bzip2-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-certctl",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-clibs",
-            "version": "15.1p1"
-          },
-          {
-            "name": "FreeBSD-ctf-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-fetch",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-kerberos-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libarchive",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libbsdstat",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libcasper",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libexecinfo",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libldns",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libmagic",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-libucl",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-mtree",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-ncurses-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-openssl",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-pam-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-pkg-bootstrap",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-rc",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-runtime",
-            "version": "15.1p1"
-          },
-          {
-            "name": "FreeBSD-tcpd",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-ufs-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-utilities",
-            "version": "15.1p1"
-          },
-          {
-            "name": "FreeBSD-xz-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-zfs-lib",
-            "version": "15.1p1"
-          },
-          {
-            "name": "FreeBSD-zlib",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-zoneinfo",
-            "version": "15.1"
-          },
-          {
-            "name": "FreeBSD-zstd-lib",
-            "version": "15.1"
-          },
-          {
-            "name": "ca_root_nss",
-            "version": "3.124"
+            "version": "3.125"
           },
           {
             "name": "execline",
@@ -793,7 +454,314 @@
           },
           {
             "name": "py312-deepmerge",
-            "version": "1.1.1"
+            "version": "2.1.0"
+          },
+          {
+            "name": "py312-markdown",
+            "version": "3.10.2"
+          },
+          {
+            "name": "py312-markupsafe",
+            "version": "3.0.3"
+          },
+          {
+            "name": "py312-pygments",
+            "version": "2.20.0"
+          },
+          {
+            "name": "py312-pymdown-extensions",
+            "version": "11.0"
+          },
+          {
+            "name": "py312-pyyaml",
+            "version": "6.0.3"
+          },
+          {
+            "name": "py312-tomli",
+            "version": "2.4.1"
+          },
+          {
+            "name": "py312-zensical",
+            "version": "0.0.50"
+          },
+          {
+            "name": "python312",
+            "version": "3.12.13_3"
+          },
+          {
+            "name": "readline",
+            "version": "8.3.3"
+          },
+          {
+            "name": "s6",
+            "version": "2.14.0.1"
+          },
+          {
+            "name": "skalibs",
+            "version": "2.14.5.1"
+          }
+        ],
+        "go": [],
+        "java": [],
+        "node": [],
+        "php": [],
+        "python": [
+          {
+            "name": "Jinja2",
+            "version": "3.1.6"
+          },
+          {
+            "name": "PyYAML",
+            "version": "6.0.3"
+          },
+          {
+            "name": "babel",
+            "version": "2.18.0"
+          },
+          {
+            "name": "click",
+            "version": "8.3.1"
+          },
+          {
+            "name": "deepmerge",
+            "version": "2.1.0"
+          },
+          {
+            "name": "example",
+            "version": "21.12"
+          },
+          {
+            "name": "markdown",
+            "version": "3.10.2"
+          },
+          {
+            "name": "markupsafe",
+            "version": "3.0.3"
+          },
+          {
+            "name": "pygments",
+            "version": "2.20.0"
+          },
+          {
+            "name": "pymdown-extensions",
+            "version": "11.0"
+          },
+          {
+            "name": "tomli",
+            "version": "2.4.1"
+          },
+          {
+            "name": "zensical",
+            "version": "0.0.50"
+          }
+        ],
+        "ruby": [],
+        "rust": []
+      },
+      "source": "pkg",
+      "summary": {
+        "dotnet": 0,
+        "freebsd": 57,
+        "go": 0,
+        "java": 0,
+        "node": 0,
+        "php": 0,
+        "python": 12,
+        "ruby": 0,
+        "rust": 0,
+        "total": 69
+      }
+    },
+    "pkg-latest": {
+      "app_version": "0.0.46",
+      "arch": "amd64",
+      "generated": "2026-07-18T11:42:02Z",
+      "packages": {
+        "dotnet": [],
+        "freebsd": [
+          {
+            "name": "FreeBSD-audit-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-blocklist",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-bzip2-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-certctl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-clibs",
+            "version": "15.1p1"
+          },
+          {
+            "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-fetch",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-kerberos-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libarchive",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libbsdstat",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libcasper",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libexecinfo",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libldns",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libmagic",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-mtree",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-ncurses-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-openssl",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-openssl-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-pkg-bootstrap",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-rc",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-runtime",
+            "version": "15.1p1"
+          },
+          {
+            "name": "FreeBSD-tcpd",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-ufs-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-utilities",
+            "version": "15.1p1"
+          },
+          {
+            "name": "FreeBSD-xz-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-zfs-lib",
+            "version": "15.1p1"
+          },
+          {
+            "name": "FreeBSD-zlib",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-zoneinfo",
+            "version": "15.1"
+          },
+          {
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
+          },
+          {
+            "name": "ca_root_nss",
+            "version": "3.125"
+          },
+          {
+            "name": "execline",
+            "version": "2.9.8.1"
+          },
+          {
+            "name": "expat",
+            "version": "2.8.2"
+          },
+          {
+            "name": "gettext-runtime",
+            "version": "1.0_1"
+          },
+          {
+            "name": "indexinfo",
+            "version": "0.3.1_1"
+          },
+          {
+            "name": "jq",
+            "version": "1.8.2"
+          },
+          {
+            "name": "libffi",
+            "version": "3.6.0"
+          },
+          {
+            "name": "libyaml",
+            "version": "0.2.5"
+          },
+          {
+            "name": "mpdecimal",
+            "version": "4.0.1"
+          },
+          {
+            "name": "oniguruma",
+            "version": "6.9.10"
+          },
+          {
+            "name": "pkg",
+            "version": "2.7.5"
+          },
+          {
+            "name": "py312-Babel",
+            "version": "2.18.0"
+          },
+          {
+            "name": "py312-Jinja2",
+            "version": "3.1.6"
+          },
+          {
+            "name": "py312-click",
+            "version": "8.3.1"
+          },
+          {
+            "name": "py312-deepmerge",
+            "version": "2.1.0"
           },
           {
             "name": "py312-markdown",
@@ -863,7 +831,7 @@
           },
           {
             "name": "deepmerge",
-            "version": "1.1.1"
+            "version": "2.1.0"
           },
           {
             "name": "example",
