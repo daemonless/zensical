@@ -8,7 +8,7 @@ ARG BASE_VERSION=15.1
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
-ARG PKG_NAME="py311-zensical"
+ARG PKG_NAME="py312-zensical"
 ARG PACKAGES="${PKG_NAME}"
 
 LABEL org.opencontainers.image.title="Zensical" \

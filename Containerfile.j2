@@ -8,17 +8,17 @@ RUN pkg update && \
     FreeBSD-clibs-dev FreeBSD-runtime-dev FreeBSD-libexecinfo-dev \
     FreeBSD-clang FreeBSD-clang-dev FreeBSD-toolchain \
     FreeBSD-utilities-dev FreeBSD-zlib-dev FreeBSD-audit-dev \
-    python311 py311-maturin rust ca_root_nss && \
+    python3 py312-maturin rust ca_root_nss && \
     pkg clean -ay
 
 ENV CARGO_BUILD_JOBS=2
 
-RUN python3.11 -m ensurepip --upgrade && \
+RUN python3 -m ensurepip --upgrade && \
     VERSION=$(fetch -qo - https://pypi.org/pypi/zensical/json | \
-        python3.11 -c 'import json,sys; print(json.load(sys.stdin)["info"]["version"])') && \
+        python3 -c 'import json,sys; print(json.load(sys.stdin)["info"]["version"])') && \
     echo "Building zensical ${VERSION}" && \
     echo "${VERSION}" > /tmp/zensical-version && \
-    python3.11 -m pip wheel --no-build-isolation --no-deps \
+    python3 -m pip wheel --no-build-isolation --no-deps \
         -w /wheels "zensical==${VERSION}" && \
     rm -rf /root/.cargo /root/.cache
 
@@ -26,7 +26,7 @@ RUN python3.11 -m ensurepip --upgrade && \
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
-ARG PACKAGES="python311 ca_root_nss"
+ARG PACKAGES="python3 ca_root_nss"
 
 LABEL org.opencontainers.image.title="Zensical" \
       org.opencontainers.image.description="Zensical is a modern static site generator designed to simplify building and maintaining project documentation.  It's built by the creators of Material for MkDocs and shares the same core design principles and philosophy - batteries included, easy to use, with powerful customization options." \
@@ -50,7 +50,7 @@ COPY --from=builder /tmp/zensical-version /tmp/zensical-version
 # and scaffold a default project for first-run
 RUN pkg update && \
     pkg install -y ${PACKAGES} && \
-    python3.11 -m venv /app/venv && \
+    python3 -m venv /app/venv && \
     /app/venv/bin/pip install --no-cache-dir /wheels/zensical-*.whl && \
     ln -s /app/venv/bin/zensical /usr/local/bin/zensical && \
     mv /tmp/zensical-version /app/version && \
