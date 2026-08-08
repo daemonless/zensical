@@ -6,6 +6,7 @@
 build:
   architectures:
     - amd64
+    - aarch64
   variants:
     - tag: latest
       containerfile: Containerfile
