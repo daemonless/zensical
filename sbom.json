@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-17T08:04:47Z",
+  "generated": "2026-08-18T20:43:13Z",
   "image": "zensical",
   "tags": {
     "latest": {
-      "app_version": "0.0.55",
+      "app_version": "0.0.56",
       "arch": "amd64",
-      "generated": "2026-08-17T08:03:59Z",
+      "generated": "2026-08-18T20:35:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -365,7 +365,7 @@
           {
             "name": "Pygments",
             "purl": "",
-            "version": "2.20.0"
+            "version": "2.21.0"
           },
           {
             "name": "click",
@@ -400,7 +400,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.55"
+            "version": "0.0.56"
           }
         ],
         "ruby": [],
@@ -423,7 +423,7 @@
     "pkg": {
       "app_version": "0.0.53",
       "arch": "amd64",
-      "generated": "2026-08-17T08:00:02Z",
+      "generated": "2026-08-18T20:42:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -921,7 +921,7 @@
     "pkg-latest": {
       "app_version": "0.0.53",
       "arch": "amd64",
-      "generated": "2026-08-17T07:59:46Z",
+      "generated": "2026-08-18T20:31:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1309,7 +1309,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
