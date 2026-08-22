@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-18T20:43:13Z",
+  "generated": "2026-08-22T07:11:04Z",
   "image": "zensical",
   "tags": {
     "latest": {
-      "app_version": "0.0.56",
+      "app_version": "0.0.57",
       "arch": "amd64",
-      "generated": "2026-08-18T20:35:01Z",
+      "generated": "2026-08-22T07:10:17Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -313,7 +313,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -400,7 +400,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.56"
+            "version": "0.0.57"
           }
         ],
         "ruby": [],
@@ -423,7 +423,7 @@
     "pkg": {
       "app_version": "0.0.53",
       "arch": "amd64",
-      "generated": "2026-08-18T20:42:20Z",
+      "generated": "2026-08-22T07:06:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -656,7 +656,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -811,7 +811,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -921,7 +921,7 @@
     "pkg-latest": {
       "app_version": "0.0.53",
       "arch": "amd64",
-      "generated": "2026-08-18T20:31:38Z",
+      "generated": "2026-08-22T07:05:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1154,7 +1154,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.126.1"
           },
           {
             "licenses": [
@@ -1197,7 +1197,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -1274,7 +1274,7 @@
               "BSD2CLAUSE"
             ],
             "name": "py312-pygments",
-            "version": "2.20.0"
+            "version": "2.21.0"
           },
           {
             "licenses": [
@@ -1381,7 +1381,7 @@
           {
             "name": "pygments",
             "purl": "",
-            "version": "2.20.0"
+            "version": "2.21.0"
           },
           {
             "name": "pymdown-extensions",
