@@ -44,8 +44,11 @@ services:
       - "/path/to/containers/zensical:/config"
     ports:
       - "8000:8000"
-    restart: unless-stopped
+    # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
+    restart: always
 ```
+
+Save as `compose.yaml`, then run `podman-compose up -d`.
 
 ### AppJail Director
 **.env**:
@@ -96,6 +99,9 @@ ARG tag=latest
 OPTION overwrite=force
 OPTION from=ghcr.io/daemonless/zensical:${tag}
 ```
+
+Save the files above, then run `appjail-director up`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
 
 ### Podman CLI
@@ -109,6 +115,8 @@ podman run -d --name zensical \
   -v /path/to/containers/zensical:/config \
   ghcr.io/daemonless/zensical:latest
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
 
 ### AppJail
 
@@ -125,7 +133,38 @@ appjail oci run -Pd \
   -o fstab="/path/to/containers/zensical /config <pseudofs>" \
   ghcr.io/daemonless/zensical:latest zensical
 ```
+
+Save as `run.sh`, then run `sh run.sh`.
+
 **Note**: Exposing ports in AppJail means that your service can be reached from remote hosts. If that is not your intention, do not expose the ports and communicate with the service using the IPv4 address assigned by the virtual network.
+
+### Bastille
+
+> [!WARNING]
+> Bastille's OCI support is **experimental**. It requires `buildah`, shares the host network stack (`inherit`), and persists image-declared volumes under `--data-path`.
+
+```yaml
+services:
+  zensical:
+    image: "ghcr.io/daemonless/zensical:latest"
+    container_name: zensical
+    network_mode: host  # jail shares host networking
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+```
+
+Save as `podman-compose.yml`, then run `bastille up`. Or via CLI:
+
+```bash
+bastille create -O \
+  --env PUID=1000 \
+  --env PGID=1000 \
+  --env TZ=UTC \
+  --data-path /path/to/containers/zensical \
+  zensical ghcr.io/daemonless/zensical:latest inherit
+```
 
 ### Ansible
 
@@ -145,6 +184,8 @@ appjail oci run -Pd \
     volumes:
       - "/path/to/containers/zensical:/config"
 ```
+
+Save as `zensical-deploy.yaml`, then run `ansible-playbook zensical-deploy.yaml`.
 
 Access at: `http://localhost:8000`
 
