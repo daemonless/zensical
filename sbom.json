@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-27T14:52:09Z",
+  "generated": "2026-09-04T10:46:31Z",
   "image": "zensical",
   "tags": {
     "latest": {
-      "app_version": "0.0.57",
+      "app_version": "0.0.59",
       "arch": "amd64",
-      "generated": "2026-08-27T14:51:22Z",
+      "generated": "2026-09-04T10:45:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -147,7 +147,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -175,7 +175,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -375,7 +375,7 @@
           {
             "name": "deepmerge",
             "purl": "",
-            "version": "3.0"
+            "version": "3.0.1"
           },
           {
             "name": "example",
@@ -400,7 +400,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.57"
+            "version": "0.0.59"
           }
         ],
         "ruby": [],
@@ -421,9 +421,9 @@
       }
     },
     "pkg": {
-      "app_version": "0.0.53",
+      "app_version": "0.0.57",
       "arch": "amd64",
-      "generated": "2026-08-27T14:47:06Z",
+      "generated": "2026-09-04T10:40:32Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -565,7 +565,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -593,7 +593,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -656,7 +656,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -804,7 +804,7 @@
               "MIT"
             ],
             "name": "py312-zensical",
-            "version": "0.0.53"
+            "version": "0.0.57"
           },
           {
             "licenses": [
@@ -898,7 +898,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.53"
+            "version": "0.0.57"
           }
         ],
         "ruby": [],
@@ -921,7 +921,7 @@
     "pkg-latest": {
       "app_version": "0.0.57",
       "arch": "amd64",
-      "generated": "2026-08-27T14:47:30Z",
+      "generated": "2026-09-04T10:42:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1063,7 +1063,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -1091,7 +1091,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -1154,7 +1154,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.126.1"
+            "version": "3.127"
           },
           {
             "licenses": [
