@@ -7,6 +7,7 @@ Source: dbuild templates
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/zensical/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/zensical/actions)
 [![Last Commit](https://img.shields.io/github/last-commit/daemonless/zensical?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/zensical/commits)
+[![OCI Pulls](https://img.shields.io/docker/pulls/daemonless/zensical?style=flat-square&label=OCI+Pulls&color=blue)](https://hub.docker.com/r/daemonless/zensical)
 
 Zensical is a modern static site generator designed to simplify building and maintaining project documentation.  It's built by the creators of Material for MkDocs and shares the same core design principles and philosophy - batteries included, easy to use, with powerful customization options.
 
