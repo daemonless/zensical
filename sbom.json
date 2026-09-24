@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-22T17:52:04Z",
+  "generated": "2026-09-24T22:12:28Z",
   "image": "zensical",
   "tags": {
     "latest": {
-      "app_version": "0.0.64",
+      "app_version": "0.0.65",
       "arch": "amd64",
-      "generated": "2026-09-22T17:50:34Z",
+      "generated": "2026-09-24T22:11:44Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -397,6 +397,11 @@
             "version": "21.12"
           },
           {
+            "name": "pathspec",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
             "name": "pip",
             "purl": "",
             "version": "25.0.1"
@@ -404,7 +409,7 @@
           {
             "name": "pymdown-extensions",
             "purl": "",
-            "version": "12.0.1"
+            "version": "12.1"
           },
           {
             "name": "tomli",
@@ -414,7 +419,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.64"
+            "version": "0.0.65"
           }
         ],
         "ruby": [],
@@ -428,16 +433,16 @@
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 12,
+        "python": 13,
         "ruby": 0,
         "rust": 0,
-        "total": 61
+        "total": 62
       }
     },
     "pkg": {
       "app_version": "0.0.57",
       "arch": "amd64",
-      "generated": "2026-09-22T17:41:41Z",
+      "generated": "2026-09-24T22:03:28Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -949,7 +954,7 @@
     "pkg-latest": {
       "app_version": "0.0.63",
       "arch": "amd64",
-      "generated": "2026-09-22T17:41:47Z",
+      "generated": "2026-09-24T22:03:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
