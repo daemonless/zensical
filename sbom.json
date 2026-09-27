@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-24T22:12:28Z",
+  "generated": "2026-09-27T21:58:50Z",
   "image": "zensical",
   "tags": {
     "latest": {
       "app_version": "0.0.65",
       "arch": "amd64",
-      "generated": "2026-09-24T22:11:44Z",
+      "generated": "2026-09-27T21:58:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -364,7 +364,7 @@
           {
             "name": "Markdown",
             "purl": "",
-            "version": "3.10.3"
+            "version": "3.11"
           },
           {
             "name": "MarkupSafe",
@@ -442,7 +442,7 @@
     "pkg": {
       "app_version": "0.0.57",
       "arch": "amd64",
-      "generated": "2026-09-24T22:03:28Z",
+      "generated": "2026-09-27T21:52:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -952,9 +952,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "0.0.63",
+      "app_version": "0.0.65",
       "arch": "amd64",
-      "generated": "2026-09-24T22:03:55Z",
+      "generated": "2026-09-27T21:48:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1318,6 +1318,13 @@
           },
           {
             "licenses": [
+              "MPL20"
+            ],
+            "name": "py312-pathspec",
+            "version": "1.1.1"
+          },
+          {
+            "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "py312-pygments",
@@ -1349,14 +1356,14 @@
               "MIT"
             ],
             "name": "py312-zensical",
-            "version": "0.0.63"
+            "version": "0.0.65"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14"
+            "version": "3.12.14_1"
           },
           {
             "licenses": [
@@ -1421,6 +1428,11 @@
             "version": "3.0.3"
           },
           {
+            "name": "pathspec",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
             "name": "pygments",
             "purl": "",
             "version": "2.21.0"
@@ -1443,7 +1455,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.63"
+            "version": "0.0.65"
           }
         ],
         "ruby": [],
@@ -1452,15 +1464,15 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 60,
+        "freebsd": 61,
         "go": 0,
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 12,
+        "python": 13,
         "ruby": 0,
         "rust": 0,
-        "total": 72
+        "total": 74
       }
     }
   }
