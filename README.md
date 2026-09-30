@@ -42,7 +42,7 @@ services:
       - PGID=1000  # Group ID for the application process
       - TZ=UTC  # Timezone for the container
     volumes:
-      - "/path/to/containers/zensical:/config"
+      - "/containers/zensical:/config"
     ports:
       - "8000:8000"
     # always (not unless-stopped) so FreeBSD's podman rc.d auto-starts it at boot
@@ -87,7 +87,7 @@ services:
       - zensical: /config
 volumes:
   zensical:
-    device: '/path/to/containers/zensical'
+    device: '/containers/zensical'
 ```
 
 **Makejail**:
@@ -118,7 +118,7 @@ podman run -d --name zensical \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=UTC \
-  -v /path/to/containers/zensical:/config \
+  -v /containers/zensical:/config \
   ghcr.io/daemonless/zensical:latest
 ```
 
@@ -137,7 +137,7 @@ appjail oci run -Pd \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ=UTC \
-  -o fstab="/path/to/containers/zensical /config <pseudofs>" \
+  -o fstab="/containers/zensical /config <pseudofs>" \
   ghcr.io/daemonless/zensical:latest zensical
 ```
 
@@ -166,7 +166,7 @@ services:
       - PGID=1000
       - TZ=UTC
     volumes:
-      - "/path/to/containers/zensical:/config"
+      - "/containers/zensical:/config"
 ```
 
 Save as `bastille-compose.yml`, then run `bastille up`. Or via CLI:
@@ -176,7 +176,7 @@ bastille create -O \
   --env PUID=1000 \
   --env PGID=1000 \
   --env TZ=UTC \
-  --volume /path/to/containers/zensical /config \
+  --volume /containers/zensical /config \
   zensical ghcr.io/daemonless/zensical:latest inherit
 ```
 
@@ -196,7 +196,7 @@ bastille create -O \
     ports:
       - "8000:8000"
     volumes:
-      - "/path/to/containers/zensical:/config"
+      - "/containers/zensical:/config"
 ```
 
 Save as `zensical-deploy.yaml`, then run `ansible-playbook zensical-deploy.yaml`.
