@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-30T13:41:11Z",
+  "generated": "2026-10-06T07:46:44Z",
   "image": "zensical",
   "tags": {
     "latest": {
-      "app_version": "0.0.67",
+      "app_version": "0.0.68",
       "arch": "amd64",
-      "generated": "2026-09-30T13:40:22Z",
+      "generated": "2026-10-06T07:46:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -369,7 +369,7 @@
           {
             "name": "MarkupSafe",
             "purl": "",
-            "version": "3.0.3"
+            "version": "3.0.4"
           },
           {
             "name": "PyYAML",
@@ -419,7 +419,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.67"
+            "version": "0.0.68"
           }
         ],
         "ruby": [],
@@ -442,7 +442,7 @@
     "pkg": {
       "app_version": "0.0.57",
       "arch": "amd64",
-      "generated": "2026-09-30T13:29:16Z",
+      "generated": "2026-10-06T07:39:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -952,9 +952,9 @@
       }
     },
     "pkg-latest": {
-      "app_version": "0.0.65",
+      "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-09-30T13:29:56Z",
+      "generated": "2026-10-06T07:39:09Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1300,7 +1300,7 @@
               "MIT"
             ],
             "name": "py312-deepmerge",
-            "version": "2.1.0"
+            "version": "3.0.1"
           },
           {
             "licenses": [
@@ -1356,7 +1356,7 @@
               "MIT"
             ],
             "name": "py312-zensical",
-            "version": "0.0.65"
+            "version": "0.0.67"
           },
           {
             "licenses": [
@@ -1410,7 +1410,7 @@
           {
             "name": "deepmerge",
             "purl": "",
-            "version": "2.1.0"
+            "version": "3.0.1"
           },
           {
             "name": "example",
@@ -1455,7 +1455,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.65"
+            "version": "0.0.67"
           }
         ],
         "ruby": [],
