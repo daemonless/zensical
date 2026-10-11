@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-08T21:52:22Z",
+  "generated": "2026-10-11T08:16:54Z",
   "image": "zensical",
   "tags": {
     "latest": {
       "app_version": "0.0.69",
       "arch": "amd64",
-      "generated": "2026-10-08T21:51:20Z",
+      "generated": "2026-10-11T08:16:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -266,7 +266,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -295,7 +295,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.6.0"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -316,7 +316,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.4"
           },
           {
             "name": "python3",
@@ -327,14 +327,14 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14"
+            "version": "3.12.14_1"
           },
           {
             "licenses": [
               "GPLv3"
             ],
             "name": "readline",
-            "version": "8.3.3"
+            "version": "8.3.6"
           },
           {
             "licenses": [
@@ -409,7 +409,7 @@
           {
             "name": "pymdown-extensions",
             "purl": "",
-            "version": "12.1"
+            "version": "12.2"
           },
           {
             "name": "tomli",
@@ -440,9 +440,9 @@
       }
     },
     "pkg": {
-      "app_version": "0.0.57",
+      "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-10-08T21:41:23Z",
+      "generated": "2026-10-11T08:04:30Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -703,7 +703,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -732,7 +732,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.6.0"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -760,7 +760,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.7.5"
+            "version": "2.8.4"
           },
           {
             "licenses": [
@@ -788,14 +788,14 @@
               "MIT"
             ],
             "name": "py312-deepmerge",
-            "version": "2.1.0"
+            "version": "3.0.1"
           },
           {
             "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "py312-markdown",
-            "version": "3.10.2"
+            "version": "3.10.3"
           },
           {
             "licenses": [
@@ -806,24 +806,31 @@
           },
           {
             "licenses": [
+              "MPL20"
+            ],
+            "name": "py312-pathspec",
+            "version": "1.1.1"
+          },
+          {
+            "licenses": [
               "BSD2CLAUSE"
             ],
             "name": "py312-pygments",
-            "version": "2.20.0"
+            "version": "2.21.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "py312-pymdown-extensions",
-            "version": "11.0"
+            "version": "11.0.2"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "py312-pyyaml",
-            "version": "6.0.3"
+            "version": "6.0.3_1"
           },
           {
             "licenses": [
@@ -837,21 +844,21 @@
               "MIT"
             ],
             "name": "py312-zensical",
-            "version": "0.0.57"
+            "version": "0.0.67"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14"
+            "version": "3.12.14_1"
           },
           {
             "licenses": [
               "GPLv3"
             ],
             "name": "readline",
-            "version": "8.3.3"
+            "version": "8.3.6"
           },
           {
             "licenses": [
@@ -879,11 +886,6 @@
             "version": "3.1.6"
           },
           {
-            "name": "PyYAML",
-            "purl": "",
-            "version": "6.0.3"
-          },
-          {
             "name": "babel",
             "purl": "",
             "version": "2.18.0"
@@ -896,7 +898,7 @@
           {
             "name": "deepmerge",
             "purl": "",
-            "version": "2.1.0"
+            "version": "3.0.1"
           },
           {
             "name": "example",
@@ -906,7 +908,7 @@
           {
             "name": "markdown",
             "purl": "",
-            "version": "3.10.2"
+            "version": "3.10.3"
           },
           {
             "name": "markupsafe",
@@ -914,14 +916,24 @@
             "version": "3.0.3"
           },
           {
+            "name": "pathspec",
+            "purl": "",
+            "version": "1.1.1"
+          },
+          {
             "name": "pygments",
             "purl": "",
-            "version": "2.20.0"
+            "version": "2.21.0"
           },
           {
             "name": "pymdown-extensions",
             "purl": "",
-            "version": "11.0"
+            "version": "11.0.2"
+          },
+          {
+            "name": "pyyaml",
+            "purl": "",
+            "version": "6.0.3"
           },
           {
             "name": "tomli",
@@ -931,7 +943,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.57"
+            "version": "0.0.67"
           }
         ],
         "ruby": [],
@@ -940,21 +952,21 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 60,
+        "freebsd": 61,
         "go": 0,
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 12,
+        "python": 13,
         "ruby": 0,
         "rust": 0,
-        "total": 72
+        "total": 74
       }
     },
     "pkg-latest": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-10-08T21:40:04Z",
+      "generated": "2026-10-11T08:03:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
