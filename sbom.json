@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-11T08:16:54Z",
+  "generated": "2026-10-13T07:14:45Z",
   "image": "zensical",
   "tags": {
     "latest": {
-      "app_version": "0.0.69",
+      "app_version": "0.0.70",
       "arch": "amd64",
-      "generated": "2026-10-11T08:16:02Z",
+      "generated": "2026-10-13T07:13:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -419,7 +419,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.69"
+            "version": "0.0.70"
           }
         ],
         "ruby": [],
@@ -442,7 +442,7 @@
     "pkg": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-10-11T08:04:30Z",
+      "generated": "2026-10-13T07:00:48Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -966,7 +966,7 @@
     "pkg-latest": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-10-11T08:03:21Z",
+      "generated": "2026-10-13T07:01:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1213,7 +1213,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
