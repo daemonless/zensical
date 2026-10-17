@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-13T07:14:45Z",
+  "generated": "2026-10-17T09:58:09Z",
   "image": "zensical",
   "tags": {
     "latest": {
-      "app_version": "0.0.70",
+      "app_version": "0.0.71",
       "arch": "amd64",
-      "generated": "2026-10-13T07:13:46Z",
+      "generated": "2026-10-17T09:57:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -364,7 +364,7 @@
           {
             "name": "Markdown",
             "purl": "",
-            "version": "3.11"
+            "version": "3.11.1"
           },
           {
             "name": "MarkupSafe",
@@ -409,7 +409,7 @@
           {
             "name": "pymdown-extensions",
             "purl": "",
-            "version": "12.2"
+            "version": "12.3"
           },
           {
             "name": "tomli",
@@ -419,7 +419,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.70"
+            "version": "0.0.71"
           }
         ],
         "ruby": [],
@@ -442,7 +442,7 @@
     "pkg": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-10-13T07:00:48Z",
+      "generated": "2026-10-17T09:46:35Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -966,7 +966,7 @@
     "pkg-latest": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-10-13T07:01:11Z",
+      "generated": "2026-10-17T09:46:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1227,7 +1227,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.5"
+            "version": "2.9.0"
           },
           {
             "licenses": [
