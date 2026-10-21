@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-20T00:21:27Z",
+  "generated": "2026-10-21T21:22:17Z",
   "image": "zensical",
   "tags": {
-    "latest": {
+    "latest-amd64": {
       "app_version": "0.0.71",
       "arch": "amd64",
-      "generated": "2026-10-20T00:20:30Z",
+      "generated": "2026-10-21T21:21:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -238,7 +238,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -439,10 +439,10 @@
         "total": 62
       }
     },
-    "pkg": {
+    "pkg-amd64": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-10-20T00:04:14Z",
+      "generated": "2026-10-21T21:12:05Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -626,7 +626,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -675,7 +675,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -689,7 +689,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -963,10 +963,10 @@
         "total": 74
       }
     },
-    "pkg-latest": {
+    "pkg-latest-amd64": {
       "app_version": "0.0.70",
       "arch": "amd64",
-      "generated": "2026-10-20T00:05:59Z",
+      "generated": "2026-10-21T21:13:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1150,7 +1150,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
@@ -1199,7 +1199,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p4"
+            "version": "15.1p5"
           },
           {
             "licenses": [
