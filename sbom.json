@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T10:24:19Z",
+  "generated": "2026-10-23T18:39:10Z",
   "image": "zensical",
   "tags": {
     "latest-amd64": {
-      "app_version": "0.0.71",
+      "app_version": "0.0.72",
       "arch": "amd64",
-      "generated": "2026-10-23T10:20:02Z",
+      "generated": "2026-10-23T18:38:22Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -398,7 +398,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.71"
+            "version": "0.0.72"
           }
         ],
         "ruby": [],
@@ -421,7 +421,7 @@
     "pkg-amd64": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-10-23T10:13:15Z",
+      "generated": "2026-10-23T18:20:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -922,9 +922,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "0.0.70",
+      "app_version": "0.0.71",
       "arch": "amd64",
-      "generated": "2026-10-23T10:12:43Z",
+      "generated": "2026-10-23T18:27:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1319,7 +1319,7 @@
               "MIT"
             ],
             "name": "py312-zensical",
-            "version": "0.0.70"
+            "version": "0.0.71"
           },
           {
             "licenses": [
@@ -1404,7 +1404,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.70"
+            "version": "0.0.71"
           }
         ],
         "ruby": [],
