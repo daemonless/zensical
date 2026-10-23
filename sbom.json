@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-21T21:22:17Z",
+  "generated": "2026-10-23T08:41:21Z",
   "image": "zensical",
   "tags": {
     "latest-amd64": {
       "app_version": "0.0.71",
       "arch": "amd64",
-      "generated": "2026-10-21T21:21:18Z",
+      "generated": "2026-10-23T08:35:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -256,13 +256,6 @@
           },
           {
             "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
-          },
-          {
-            "licenses": [
               "MIT"
             ],
             "name": "expat",
@@ -335,20 +328,6 @@
             ],
             "name": "readline",
             "version": "8.3.6"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
           }
         ],
         "go": [],
@@ -428,7 +407,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 49,
+        "freebsd": 46,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -436,13 +415,13 @@
         "python": 13,
         "ruby": 0,
         "rust": 0,
-        "total": 62
+        "total": 59
       }
     },
     "pkg-amd64": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-10-21T21:12:05Z",
+      "generated": "2026-10-23T08:36:01Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -690,13 +669,6 @@
             ],
             "name": "ca_root_nss",
             "version": "3.131"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
           },
           {
             "licenses": [
@@ -859,20 +831,6 @@
             ],
             "name": "readline",
             "version": "8.3.6"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
           }
         ],
         "go": [],
@@ -952,7 +910,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 61,
+        "freebsd": 58,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -960,13 +918,13 @@
         "python": 13,
         "ruby": 0,
         "rust": 0,
-        "total": 74
+        "total": 71
       }
     },
     "pkg-latest-amd64": {
       "app_version": "0.0.70",
       "arch": "amd64",
-      "generated": "2026-10-21T21:13:14Z",
+      "generated": "2026-10-23T08:37:02Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1214,13 +1172,6 @@
             ],
             "name": "ca_root_nss",
             "version": "3.131"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "execline",
-            "version": "2.9.8.1"
           },
           {
             "licenses": [
@@ -1383,20 +1334,6 @@
             ],
             "name": "readline",
             "version": "8.3.6"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "s6",
-            "version": "2.14.0.1"
-          },
-          {
-            "licenses": [
-              "ISCL"
-            ],
-            "name": "skalibs",
-            "version": "2.14.5.1"
           }
         ],
         "go": [],
@@ -1476,7 +1413,7 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 61,
+        "freebsd": 58,
         "go": 0,
         "java": 0,
         "node": 0,
@@ -1484,7 +1421,7 @@
         "python": 13,
         "ruby": 0,
         "rust": 0,
-        "total": 74
+        "total": 71
       }
     }
   }
