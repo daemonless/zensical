@@ -5,7 +5,7 @@
 # --------------------------------------------------------------------------
 
 ARG BASE_VERSION=15.1
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PKG_NAME="py312-zensical"
@@ -36,10 +36,12 @@ RUN pkg update && \
 
 # Copy root filesystem
 COPY root/ /
+RUN chmod +x /daemonless/libexec/zensical /daemonless/init.d/*
+
+CMD ["/daemonless/libexec/zensical"]
 
 # Set permissions
-RUN chmod +x /etc/services.d/zensical/run /healthz \
-             /etc/cont-init.d/20-zensical-init
+RUN chmod +x /healthz
 
 # Expose
 EXPOSE 8000

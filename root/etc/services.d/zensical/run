@@ -1,3 +1,0 @@
-#!/bin/sh
-cd /config
-exec s6-setuidgid bsd zensical serve -a 0.0.0.0:8000
