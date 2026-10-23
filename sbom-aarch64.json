@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T10:51:45Z",
+  "generated": "2026-10-23T19:27:37Z",
   "image": "zensical",
   "tags": {
     "latest-aarch64": {
-      "app_version": "0.0.71",
+      "app_version": "0.0.72",
       "arch": "aarch64",
-      "generated": "2026-10-23T10:50:03Z",
+      "generated": "2026-10-23T19:25:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -398,7 +398,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.71"
+            "version": "0.0.72"
           }
         ],
         "ruby": [],
@@ -421,7 +421,7 @@
     "pkg-aarch64": {
       "app_version": "0.0.67",
       "arch": "aarch64",
-      "generated": "2026-10-23T10:50:08Z",
+      "generated": "2026-10-23T19:25:49Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -924,7 +924,7 @@
     "pkg-latest-aarch64": {
       "app_version": "0.0.70",
       "arch": "aarch64",
-      "generated": "2026-10-23T10:50:13Z",
+      "generated": "2026-10-23T19:25:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
