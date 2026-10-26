@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T19:27:37Z",
+  "generated": "2026-10-26T15:38:28Z",
   "image": "zensical",
   "tags": {
     "latest-aarch64": {
-      "app_version": "0.0.72",
+      "app_version": "0.0.73",
       "arch": "aarch64",
-      "generated": "2026-10-23T19:25:43Z",
+      "generated": "2026-10-26T15:36:36Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -368,7 +368,7 @@
           {
             "name": "deepmerge",
             "purl": "",
-            "version": "3.0.1"
+            "version": "4.0.0"
           },
           {
             "name": "example",
@@ -398,7 +398,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.72"
+            "version": "0.0.73"
           }
         ],
         "ruby": [],
@@ -421,7 +421,7 @@
     "pkg-aarch64": {
       "app_version": "0.0.67",
       "arch": "aarch64",
-      "generated": "2026-10-23T19:25:49Z",
+      "generated": "2026-10-26T15:36:41Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -924,7 +924,7 @@
     "pkg-latest-aarch64": {
       "app_version": "0.0.70",
       "arch": "aarch64",
-      "generated": "2026-10-23T19:25:54Z",
+      "generated": "2026-10-26T15:36:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
