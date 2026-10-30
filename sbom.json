@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-26T14:51:22Z",
+  "generated": "2026-10-30T23:10:25Z",
   "image": "zensical",
   "tags": {
     "latest-amd64": {
-      "app_version": "0.0.73",
+      "app_version": "0.0.74",
       "arch": "amd64",
-      "generated": "2026-10-26T14:50:12Z",
+      "generated": "2026-10-30T23:09:26Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131.1"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -398,7 +398,12 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.73"
+            "version": "0.0.74"
+          },
+          {
+            "name": "zensical-ui",
+            "purl": "",
+            "version": "0.0.41"
           }
         ],
         "ruby": [],
@@ -412,16 +417,16 @@
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 13,
+        "python": 14,
         "ruby": 0,
         "rust": 0,
-        "total": 59
+        "total": 60
       }
     },
     "pkg-amd64": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-10-26T14:38:21Z",
+      "generated": "2026-10-30T22:56:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -605,7 +610,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -668,7 +673,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -924,7 +929,7 @@
     "pkg-latest-amd64": {
       "app_version": "0.0.71",
       "arch": "amd64",
-      "generated": "2026-10-26T14:44:15Z",
+      "generated": "2026-10-30T22:57:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1108,7 +1113,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -1171,7 +1176,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
