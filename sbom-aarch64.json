@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-26T15:38:28Z",
+  "generated": "2026-10-30T23:49:35Z",
   "image": "zensical",
   "tags": {
     "latest-aarch64": {
-      "app_version": "0.0.73",
+      "app_version": "0.0.74",
       "arch": "aarch64",
-      "generated": "2026-10-26T15:36:36Z",
+      "generated": "2026-10-30T23:47:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -398,7 +398,12 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.73"
+            "version": "0.0.74"
+          },
+          {
+            "name": "zensical-ui",
+            "purl": "",
+            "version": "0.0.41"
           }
         ],
         "ruby": [],
@@ -412,16 +417,16 @@
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 13,
+        "python": 14,
         "ruby": 0,
         "rust": 0,
-        "total": 59
+        "total": 60
       }
     },
     "pkg-aarch64": {
       "app_version": "0.0.67",
       "arch": "aarch64",
-      "generated": "2026-10-26T15:36:41Z",
+      "generated": "2026-10-30T23:47:38Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -605,7 +610,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
@@ -924,7 +929,7 @@
     "pkg-latest-aarch64": {
       "app_version": "0.0.70",
       "arch": "aarch64",
-      "generated": "2026-10-26T15:36:46Z",
+      "generated": "2026-10-30T23:47:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1108,7 +1113,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p5"
+            "version": "15.1p6"
           },
           {
             "licenses": [
