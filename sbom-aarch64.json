@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T08:51:35Z",
+  "generated": "2026-11-04T16:41:19Z",
   "image": "zensical",
   "tags": {
     "latest-aarch64": {
       "app_version": "0.0.74",
       "arch": "aarch64",
-      "generated": "2026-11-04T08:49:28Z",
+      "generated": "2026-11-04T16:39:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -426,7 +426,7 @@
     "pkg-aarch64": {
       "app_version": "0.0.67",
       "arch": "aarch64",
-      "generated": "2026-11-04T08:49:33Z",
+      "generated": "2026-11-04T16:39:06Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -673,7 +673,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
@@ -929,7 +929,7 @@
     "pkg-latest-aarch64": {
       "app_version": "0.0.71",
       "arch": "aarch64",
-      "generated": "2026-11-04T08:49:38Z",
+      "generated": "2026-11-04T16:39:11Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1176,7 +1176,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.131"
+            "version": "3.132"
           },
           {
             "licenses": [
