@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T08:32:45Z",
+  "generated": "2026-11-04T15:32:19Z",
   "image": "zensical",
   "tags": {
     "latest-amd64": {
       "app_version": "0.0.74",
       "arch": "amd64",
-      "generated": "2026-11-04T08:31:54Z",
+      "generated": "2026-11-04T15:31:24Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -426,7 +426,7 @@
     "pkg-amd64": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-11-04T08:18:04Z",
+      "generated": "2026-11-04T15:23:46Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -929,7 +929,7 @@
     "pkg-latest-amd64": {
       "app_version": "0.0.74",
       "arch": "amd64",
-      "generated": "2026-11-04T08:20:31Z",
+      "generated": "2026-11-04T15:23:59Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
