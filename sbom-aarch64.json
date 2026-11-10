@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-07T09:59:22Z",
+  "generated": "2026-11-10T23:22:25Z",
   "image": "zensical",
   "tags": {
     "latest-aarch64": {
-      "app_version": "0.1.0",
+      "app_version": "0.1.1",
       "arch": "aarch64",
-      "generated": "2026-11-07T09:57:09Z",
+      "generated": "2026-11-10T23:20:07Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -259,7 +259,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -383,7 +383,7 @@
           {
             "name": "pymdown-extensions",
             "purl": "",
-            "version": "12.3"
+            "version": "13.0"
           },
           {
             "name": "tomli",
@@ -393,12 +393,12 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.1.0"
+            "version": "0.1.1"
           },
           {
             "name": "zensical-ui",
             "purl": "",
-            "version": "0.0.41"
+            "version": "0.0.42"
           }
         ],
         "ruby": [],
@@ -421,7 +421,7 @@
     "pkg-aarch64": {
       "app_version": "0.0.67",
       "arch": "aarch64",
-      "generated": "2026-11-07T09:57:14Z",
+      "generated": "2026-11-10T23:20:12Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -675,7 +675,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -924,7 +924,7 @@
     "pkg-latest-aarch64": {
       "app_version": "0.0.74",
       "arch": "aarch64",
-      "generated": "2026-11-07T09:57:20Z",
+      "generated": "2026-11-10T23:20:18Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
