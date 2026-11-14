@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-10T23:28:21Z",
+  "generated": "2026-11-14T22:54:56Z",
   "image": "zensical",
   "tags": {
     "latest-amd64": {
       "app_version": "0.1.1",
       "arch": "amd64",
-      "generated": "2026-11-10T23:27:24Z",
+      "generated": "2026-11-14T22:53:58Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -320,7 +320,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -383,7 +383,7 @@
           {
             "name": "pymdown-extensions",
             "purl": "",
-            "version": "13.0"
+            "version": "13.1"
           },
           {
             "name": "tomli",
@@ -421,7 +421,7 @@
     "pkg-amd64": {
       "app_version": "0.0.67",
       "arch": "amd64",
-      "generated": "2026-11-10T23:15:28Z",
+      "generated": "2026-11-14T22:44:08Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -823,7 +823,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -922,9 +922,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "0.0.74",
+      "app_version": "0.1.1",
       "arch": "amd64",
-      "generated": "2026-11-10T23:14:36Z",
+      "generated": "2026-11-14T22:44:21Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -1260,24 +1260,17 @@
           },
           {
             "licenses": [
-              "MIT"
-            ],
-            "name": "py312-deepmerge",
-            "version": "3.0.1"
-          },
-          {
-            "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "py312-markdown",
-            "version": "3.11"
+            "version": "3.11.2"
           },
           {
             "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "py312-markupsafe",
-            "version": "3.0.3"
+            "version": "3.0.4"
           },
           {
             "licenses": [
@@ -1298,7 +1291,7 @@
               "MIT"
             ],
             "name": "py312-pymdown-extensions",
-            "version": "12.3"
+            "version": "13.0"
           },
           {
             "licenses": [
@@ -1312,28 +1305,28 @@
               "MIT"
             ],
             "name": "py312-tomli",
-            "version": "2.4.1"
+            "version": "2.5.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "py312-zensical",
-            "version": "0.0.74"
+            "version": "0.1.1"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "py312-zensical-ui",
-            "version": "0.0.41"
+            "version": "0.0.42"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.15"
+            "version": "3.12.16"
           },
           {
             "licenses": [
@@ -1364,11 +1357,6 @@
             "version": "8.5.0"
           },
           {
-            "name": "deepmerge",
-            "purl": "",
-            "version": "3.0.1"
-          },
-          {
             "name": "example",
             "purl": "",
             "version": "21.12"
@@ -1376,12 +1364,12 @@
           {
             "name": "markdown",
             "purl": "",
-            "version": "3.11"
+            "version": "3.11.2"
           },
           {
             "name": "markupsafe",
             "purl": "",
-            "version": "3.0.3"
+            "version": "3.0.4"
           },
           {
             "name": "pathspec",
@@ -1396,7 +1384,7 @@
           {
             "name": "pymdown-extensions",
             "purl": "",
-            "version": "12.3"
+            "version": "13.0"
           },
           {
             "name": "pyyaml",
@@ -1406,17 +1394,17 @@
           {
             "name": "tomli",
             "purl": "",
-            "version": "2.4.1"
+            "version": "2.5.0"
           },
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.0.74"
+            "version": "0.1.1"
           },
           {
             "name": "zensical-ui",
             "purl": "",
-            "version": "0.0.41"
+            "version": "0.0.42"
           }
         ],
         "ruby": [],
@@ -1425,15 +1413,15 @@
       "source": "pkg",
       "summary": {
         "dotnet": 0,
-        "freebsd": 59,
+        "freebsd": 58,
         "go": 0,
         "java": 0,
         "node": 0,
         "php": 0,
-        "python": 14,
+        "python": 13,
         "ruby": 0,
         "rust": 0,
-        "total": 73
+        "total": 71
       }
     }
   }
