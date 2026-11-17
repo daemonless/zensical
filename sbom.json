@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-14T22:54:56Z",
+  "generated": "2026-11-17T23:55:21Z",
   "image": "zensical",
   "tags": {
     "latest-amd64": {
-      "app_version": "0.1.1",
+      "app_version": "0.1.2",
       "arch": "amd64",
-      "generated": "2026-11-14T22:53:58Z",
+      "generated": "2026-11-17T23:54:33Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -309,7 +309,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.2"
           },
           {
             "name": "python3",
@@ -393,7 +393,7 @@
           {
             "name": "zensical",
             "purl": "",
-            "version": "0.1.1"
+            "version": "0.1.2"
           },
           {
             "name": "zensical-ui",
